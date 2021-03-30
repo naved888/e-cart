@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Slider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="cart.css">
+</head>
+
+<body>
+
+    <div id="content-wrapper">
+        <section class="column">
+            <div class="img-container">
+                <img id="slideLeft" class="arrow left-arrow" src="images/arrow-left.png">
+                <img id=featured src="images/pic1.jpg">
+                <img id="slideRight" class="arrow right-arrow" src="images/arrow-right.png">
+            </div>
+            <div id="slide-wrapper">
+                <div id="slider">
+                    <img class="thumbnail active" src="images/pic1.jpg">
+                    <img class="thumbnail" src="images/pic2.jpg">
+                    <img class="thumbnail" src="images/pic3.jpg">
+                    <img class="thumbnail" src="images/pic4.jpg">
+                    <img class="thumbnail" src="images/pic5.jpg">
+                    <img class="thumbnail" src="images/pic6.jpg">
+                </div>
+            </div>
+        </section>
+        <section class="product-details">
+            <h1 class="font-weight-bold">Upholstered Sofa</h1>
+            <p class="font-weight-bold">Kyara upholstered standard bed<br>by Zipcode Design</p>
+            <p>Anchor your living room in sophasticated style and impeccable comfort with a single addition. perfectly balancing wood accents with fabric upholstery.
+            </p>
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <p class="text-secondary"><span class="text-success">(5.0)</span> review based on 250</p>
+            <div class="button-wrap">
+                <a href="#" class="submit-review text-secondary">Submit Review</a>
+                <h2 class="font-weight-bold">$567</h2>
+                <div>
+                    <p class="text-secondary"><i class="fa fa-clock-o" aria-hidden="true"></i> Dispatched in 7 working days</p>
+                    <button class="btn btn-dark btn-lg m-1">ADD TO CART</button>
+                    <button class="btn btn-light btn-lg border border-dark m-1">ADD TO WISHLIST</button>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-content">
+            <div>
+                <i class="fa fa-credit-card" aria-hidden="true"></i>
+                <p class="d-inline font-weight-bold">Secure Payment</p>
+                <p class="text-secondary">Don't worry,your money is <br> in secure place</p>
+            </div>
+            <div>
+                <i class="fa fa-truck" aria-hidden="true"></i>
+                <p class="d-inline font-weight-bold">Fast and Free Delivery</p>
+                <p class="text-secondary">Home delivery $15,for free <br> delivery above $250</p>
+            </div>
+            <div>
+                <i class="fa fa-archive" aria-hidden="true"></i>
+                <p class="d-inline font-weight-bold">Return Policy</p>
+                <p class="text-secondary">No hassle return policy</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="./cart.js"></script>
+</body>
+
+</html>
